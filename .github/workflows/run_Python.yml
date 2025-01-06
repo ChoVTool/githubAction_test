@@ -5,7 +5,7 @@ on:
 
 jobs:
   run-code:
-    runs-on: windows-latest   # ubuntu-latest, windows-latest, macos-latest
+    runs-on: ubuntu-latest   # ubuntu-latest, windows-latest, macos-latest
 
     steps:
       - name: Check out repository
